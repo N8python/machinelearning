@@ -1,0 +1,36 @@
+{
+    "left": {
+        "left": {
+            "leaf": true,
+            "verdict": 0
+        },
+        "right": {
+            "left": {
+                "leaf": true,
+                "verdict": 1
+            },
+            "right": {
+                "leaf": true,
+                "verdict": 0
+            },
+            "thresh": 10.5,
+            "field": "age"
+        },
+        "thresh": 6,
+        "field": "age"
+    },
+    "right": {
+        "left": {
+            "leaf": true,
+            "verdict": 1
+        },
+        "right": {
+            "leaf": true,
+            "verdict": 1
+        },
+        "thresh": 11,
+        "field": "age"
+    },
+    "thresh": 13,
+    "field": "income"
+}
