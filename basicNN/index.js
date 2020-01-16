@@ -1,4 +1,4 @@
-/* This neural net can exactly approximate xor (it needs more than 2 hidden neurons though, so imrpovements can be made)*/
+/* This neural net can exactly approximate xor (it needs more than 2 hidden neurons though, so improvements can be made)*/
 const dotProduct = (t1, t2) => t1.map((x, i) => x * t2[i]).reduce((t, v) => t + v)
 const sigmoid = x => 1 / (1 + Math.exp(-x))
 const sigmoid_ = x => sigmoid(x) * (1 - sigmoid(x))
