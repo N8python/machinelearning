@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mathjs": "^6.3.0",
+    "mathjs": "^7.5.1",
     "ramda": "^0.26.1"
   }
 }
